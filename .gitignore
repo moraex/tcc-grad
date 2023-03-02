@@ -1,0 +1,19 @@
+/raw_datasets
+/paper_referencia
+/escrita
+/disciplina
+/algoritmos
+
+# arquivos muito grandes
+hom_FUN.train.arff
+hom_FUN.trainvalid.temp.arff
+hom_GO.trainvalid.arff
+hom_FUN.trainvalid.arff
+hom_FUN.trainvalid.arff
+hom_GO.trainvalid.temp.arff
+hom_GO.test.arff
+hom_FUN.trainvalid.arff
+hom_GO.trainvalid.arff
+hom_FUN.test.arff
+hom_GO.train.arff
+hom_GO.trainvalid.arff
