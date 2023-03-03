@@ -3,6 +3,10 @@
 /escrita
 /disciplina
 /algoritmos
+.gitignore
+dag2tree/
+.ipynb_checkpoints
+*.ipynb
 
 # arquivos muito grandes
 hom_FUN.train.arff
