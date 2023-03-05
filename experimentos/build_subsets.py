@@ -2,20 +2,7 @@ import numpy as np
 import math
 import os
 import sys
-
-
-class ReadFile:
-
-    def read(self, file_path):
-        with open(file_path, "r") as f:
-            return f.readlines()
-
-
-class WriteFile:
-
-    def write(self, file_path, data):
-        with open(file_path, "w") as f:
-            f.writelines(''.join(data))
+import utils
 
 
 class ReliefRankFeatures:
@@ -25,7 +12,7 @@ class ReliefRankFeatures:
     Q3 = 0
 
     def __init__(self, file):
-        file = ReadFile().read(file)
+        file = utils.ReadFile().read(file)
         sample = False
         for line in file:
             if sample:
@@ -67,27 +54,19 @@ class BuildFeatureRankedSubset:
     ReliefFeatures = None
     source_trainvalid_sataset = None
     source_prefix = 'raw_datasets/'
-    target_prefix = 'output_relief_method/'
+    _target_prefix = None
+    _OSPath = None
     dataset_name = None
     dataset_test = None
 
-    def __init__(self, source_file):
-        self.dataset_name = source_file
-        self.ReliefFeatures = ReliefRankFeatures(
-            self.source_prefix +
-            source_file + '/' +
-            source_file +
-            '.fimp')
-        self.source_trainvalid_sataset = ReadFile().read(
-            self.source_prefix +
-            source_file + '/' +
-            source_file +
-            '.trainvalid.arff')
-        self.dataset_test = ReadFile().read(
-            self.source_prefix +
-            source_file + '/' +
-            source_file +
-            '.test.arff')
+    def __init__(self, method, source_file, ranked_features_file):
+        self._OSPath = utils.OSPath(source_file)
+        self._target_prefix = method
+        self.dataset_name = self._OSPath.file_name
+        self.ReliefFeatures = ReliefRankFeatures(ranked_features_file)
+        self.source_trainvalid_sataset = utils.ReadFile().read(
+            f"{source_file}.trainvalid.arff")
+        self.dataset_test = utils.ReadFile().read(f"{source_file}.test.arff")
         self.runFile()
         self.runTest()
 
@@ -132,11 +111,11 @@ class BuildFeatureRankedSubset:
                 subset.append(','.join(new_line[keep_indexes].tolist()))
 
             # we create target folders if not exists
-            target_folder = f'output_relief_method/{self.dataset_name}/{quartil[0]}/'
+            target_folder = f'{self._target_prefix}/{self.dataset_name}/{quartil[0]}/'
             if not os.path.exists(target_folder):
                 os.makedirs(target_folder)
 
-            WriteFile().write(
+            utils.WriteFile().write(
                 f'{target_folder}{self.dataset_name}.trainvalid.arff', subset)
 
     def runTest(self):
@@ -176,11 +155,18 @@ class BuildFeatureRankedSubset:
                 new_line = np.array(line.split(","))
                 subset.append(','.join(new_line[keep_indexes].tolist()))
 
-            target_folder = f'output_relief_method/{self.dataset_name}/{quartil[0]}/'
-            WriteFile().write(
+            target_folder = f'{self._target_prefix}/{self.dataset_name}/{quartil[0]}/'
+            utils.WriteFile().write(
                 f'{target_folder}{self.dataset_name}.test.arff', subset)
 
 
 if __name__ == '__main__':
-    dataset = sys.argv[1]
-    BuildFeatureRankedSubset(dataset)
+    method_map = {
+        "relief": "output_relief_method",
+        "genie3": "output_genie3_method",
+        "symbolic": "output_symbolic_method",
+    }
+    method = method_map[sys.argv[1]]
+    dataset = sys.argv[2]
+    ranked_features_file = sys.argv[3]
+    BuildFeatureRankedSubset(method, dataset, ranked_features_file)

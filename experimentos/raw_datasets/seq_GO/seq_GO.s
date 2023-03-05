@@ -26,7 +26,7 @@ MinimalWeight = 5.0
 K = [1,5,10,15,20,25,30,35,40]
 Distance = Euclidean
 SearchMethod = BruteForce
-% DistanceWeighting = [Constant]
+DistanceWeighting = [Constant]
 % AttributeWeighting = [list with the weights from feature ranking]
 ChosenInstancesTest = [-1]
 
@@ -46,3 +46,6 @@ Neighbours = [10, 15]
 Iterations = 10
 InternalFolds = 5
 PossibleWeights = [0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0]
+
+[Output]
+TrainErrors = No

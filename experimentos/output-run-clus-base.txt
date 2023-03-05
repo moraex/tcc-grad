@@ -1,0 +1,962 @@
+Clus v2.12.7
+Software for Predictive Clustering
+
+Copyright (C) 2007 - 2023
+   Katholieke Universiteit Leuven, Leuven, Belgium
+   Jozef Stefan Institute, Ljubljana, Slovenia
+
+This program is free software and comes with ABSOLUTELY NO
+WARRANTY. You are welcome to redistribute it under certain
+conditions. Type 'clus -copying' for distribution details.
+
+Logging properties file logging.properties not found! Console output only.
+[2023-03-04 9:40:27.922] [INFO] Loading 'cellcycle_FUN' 
+[2023-03-04 9:40:27.928] [INFO] Reading ARFF Header 
+[2023-03-04 9:40:27.956] [INFO] Reading CSV Data 
+[2023-03-04 9:40:28.078] [INFO] Found 2476 rows 
+[2023-03-04 9:40:28.079] [INFO] Space required by nominal attributes: 0 bytes/tuple regular, 0 bytes/tuple bitwise 
+[2023-03-04 9:40:28.145] [INFO] Clustering attributes check ==> #nominal: 0 #numeric: 0 
+[2023-03-04 9:40:28.146] [INFO] Classes type: class 
+[2023-03-04 9:40:28.211] [INFO] Has missing values: true 
+[2023-03-04 9:40:28.226] [INFO] Time: 04. 03. 2023 21:40:28 
+[2023-03-04 9:40:28.227] [INFO] Run: 01 
+[2023-03-04 9:40:28.228] [INFO] TDIDT (Tuning F-Test) 
+[2023-03-04 9:40:28.229] [INFO] Heuristic: Variance Reduction (FTest = 1.0, Weights (663)) 
+[2023-03-04 9:40:28.230] [INFO] Try for F-test value = 0.05 
+Warning:
+Static random has been called. This may not work in parallel setting.
+There will be no additional warnings for this.
+[2023-03-04 9:40:30.073] [INFO]  
+[2023-03-04 9:40:30.074] [INFO] Try for F-test value = 0.1 
+[2023-03-04 9:40:32.878] [INFO]  
+[2023-03-04 9:40:32.878] [INFO] Try for F-test value = 0.1 
+[2023-03-04 9:40:35.699] [INFO]  
+[2023-03-04 9:40:35.700] [INFO] Best F-test value is: 0.05 
+[2023-03-04 9:40:35.701] [INFO]  
+[2023-03-04 9:40:36.550] [INFO] Loading 'raw_datasets/cellcycle_FUN/cellcycle_FUN.test.arff' 
+[2023-03-04 9:40:36.594] [INFO] Computing testing error 
+[2023-03-04 9:40:38.050] [INFO] Output written to: cellcycle_FUN.out 
+[2023-03-04 9:40:38.052] [INFO] Done. 
+Clus v2.12.7
+Software for Predictive Clustering
+
+Copyright (C) 2007 - 2023
+   Katholieke Universiteit Leuven, Leuven, Belgium
+   Jozef Stefan Institute, Ljubljana, Slovenia
+
+This program is free software and comes with ABSOLUTELY NO
+WARRANTY. You are welcome to redistribute it under certain
+conditions. Type 'clus -copying' for distribution details.
+
+Logging properties file logging.properties not found! Console output only.
+[2023-03-04 9:40:38.454] [INFO] Loading 'cellcycle_GO' 
+[2023-03-04 9:40:38.460] [INFO] Reading ARFF Header 
+[2023-03-04 9:40:38.530] [INFO] Reading CSV Data 
+[2023-03-04 9:40:38.758] [INFO] Found 2473 rows 
+[2023-03-04 9:40:38.759] [INFO] Space required by nominal attributes: 0 bytes/tuple regular, 0 bytes/tuple bitwise 
+[2023-03-04 9:40:38.829] [INFO] Clustering attributes check ==> #nominal: 0 #numeric: 0 
+[2023-03-04 9:40:38.830] [INFO] Classes type: class 
+[2023-03-04 9:40:38.945] [INFO] Has missing values: true 
+[2023-03-04 9:40:38.967] [INFO] Time: 04. 03. 2023 21:40:38 
+[2023-03-04 9:40:38.967] [INFO] Run: 01 
+[2023-03-04 9:40:38.968] [INFO] TDIDT (Tuning F-Test) 
+[2023-03-04 9:40:38.969] [INFO] Heuristic: Variance Reduction (FTest = 1.0, Weights (8143)) 
+[2023-03-04 9:40:38.971] [INFO] Try for F-test value = 0.05 
+Warning:
+Static random has been called. This may not work in parallel setting.
+There will be no additional warnings for this.
+[2023-03-04 9:40:56.708] [INFO]  
+[2023-03-04 9:40:56.749] [INFO] F-Test = 0.125 limit = 2.35 values = 33 
+[2023-03-04 9:40:56.749] [INFO] Try for F-test value = 0.125 
+[2023-03-04 9:41:33.839] [INFO]  
+[2023-03-04 9:41:33.840] [INFO] Try for F-test value = 0.1 
+[2023-03-04 9:42:01.075] [INFO]  
+[2023-03-04 9:42:01.076] [INFO] Best F-test value is: 0.05 
+[2023-03-04 9:42:01.078] [INFO]  
+[2023-03-04 9:42:09.558] [INFO] Loading 'raw_datasets/cellcycle_GO/cellcycle_GO.test.arff' 
+[2023-03-04 9:42:09.682] [INFO] Computing testing error 
+[2023-03-04 9:42:26.216] [INFO] Output written to: cellcycle_GO.out 
+[2023-03-04 9:42:26.219] [INFO] Done. 
+Clus v2.12.7
+Software for Predictive Clustering
+
+Copyright (C) 2007 - 2023
+   Katholieke Universiteit Leuven, Leuven, Belgium
+   Jozef Stefan Institute, Ljubljana, Slovenia
+
+This program is free software and comes with ABSOLUTELY NO
+WARRANTY. You are welcome to redistribute it under certain
+conditions. Type 'clus -copying' for distribution details.
+
+Logging properties file logging.properties not found! Console output only.
+[2023-03-04 9:42:26.785] [INFO] Loading 'church_FUN' 
+[2023-03-04 9:42:26.791] [INFO] Reading ARFF Header 
+[2023-03-04 9:42:26.824] [INFO] Reading CSV Data 
+[2023-03-04 9:42:26.896] [INFO] Found 2474 rows 
+[2023-03-04 9:42:26.897] [INFO] Space required by nominal attributes: 4 bytes/tuple regular, 0 bytes/tuple bitwise 
+[2023-03-04 9:42:26.973] [INFO] Clustering attributes check ==> #nominal: 0 #numeric: 0 
+[2023-03-04 9:42:26.974] [INFO] Classes type: class 
+[2023-03-04 9:42:27.071] [INFO] Has missing values: true 
+[2023-03-04 9:42:27.084] [INFO] Time: 04. 03. 2023 21:42:27 
+[2023-03-04 9:42:27.085] [INFO] Run: 01 
+[2023-03-04 9:42:27.086] [INFO] TDIDT (Tuning F-Test) 
+[2023-03-04 9:42:27.087] [INFO] Heuristic: Variance Reduction (FTest = 1.0, Weights (613)) 
+[2023-03-04 9:42:27.087] [INFO] Try for F-test value = 0.1 
+Warning:
+Static random has been called. This may not work in parallel setting.
+There will be no additional warnings for this.
+[2023-03-04 9:42:27.563] [INFO]  
+[2023-03-04 9:42:27.563] [INFO] Try for F-test value = 0.1 
+[2023-03-04 9:42:27.801] [INFO]  
+[2023-03-04 9:42:27.801] [INFO] Try for F-test value = 0.1 
+[2023-03-04 9:42:27.994] [INFO]  
+[2023-03-04 9:42:27.994] [INFO] Best F-test value is: 0.1 
+[2023-03-04 9:42:27.995] [INFO]  
+[2023-03-04 9:42:28.103] [INFO] Loading 'raw_datasets/church_FUN/church_FUN.test.arff' 
+[2023-03-04 9:42:28.131] [INFO] Computing testing error 
+[2023-03-04 9:42:29.224] [INFO] Output written to: church_FUN.out 
+[2023-03-04 9:42:29.227] [INFO] Done. 
+Clus v2.12.7
+Software for Predictive Clustering
+
+Copyright (C) 2007 - 2023
+   Katholieke Universiteit Leuven, Leuven, Belgium
+   Jozef Stefan Institute, Ljubljana, Slovenia
+
+This program is free software and comes with ABSOLUTELY NO
+WARRANTY. You are welcome to redistribute it under certain
+conditions. Type 'clus -copying' for distribution details.
+
+Logging properties file logging.properties not found! Console output only.
+[2023-03-04 9:42:29.614] [INFO] Loading 'church_GO' 
+[2023-03-04 9:42:29.620] [INFO] Reading ARFF Header 
+[2023-03-04 9:42:29.712] [INFO] Reading CSV Data 
+[2023-03-04 9:42:29.894] [INFO] Found 2471 rows 
+[2023-03-04 9:42:29.895] [INFO] Space required by nominal attributes: 4 bytes/tuple regular, 0 bytes/tuple bitwise 
+[2023-03-04 9:42:29.978] [INFO] Clustering attributes check ==> #nominal: 0 #numeric: 0 
+[2023-03-04 9:42:29.979] [INFO] Classes type: class 
+[2023-03-04 9:42:30.130] [INFO] Has missing values: true 
+[2023-03-04 9:42:30.166] [INFO] Time: 04. 03. 2023 21:42:30 
+[2023-03-04 9:42:30.167] [INFO] Run: 01 
+[2023-03-04 9:42:30.167] [INFO] TDIDT (Tuning F-Test) 
+[2023-03-04 9:42:30.168] [INFO] Heuristic: Variance Reduction (FTest = 1.0, Weights (8089)) 
+[2023-03-04 9:42:30.170] [INFO] Try for F-test value = 0.05 
+Warning:
+Static random has been called. This may not work in parallel setting.
+There will be no additional warnings for this.
+[2023-03-04 9:42:33.189] [INFO]  
+[2023-03-04 9:42:33.195] [INFO] F-Test = 0.125 limit = 2.35 values = 33 
+[2023-03-04 9:42:33.196] [INFO] Try for F-test value = 0.125 
+[2023-03-04 9:42:36.436] [INFO]  
+[2023-03-04 9:42:36.438] [INFO] F-Test = 0.125 limit = 2.35 values = 33 
+[2023-03-04 9:42:36.439] [INFO] Try for F-test value = 0.125 
+[2023-03-04 9:42:39.620] [INFO]  
+[2023-03-04 9:42:39.620] [INFO] Best F-test value is: 0.05 
+[2023-03-04 9:42:39.621] [INFO]  
+[2023-03-04 9:42:40.678] [INFO] Loading 'raw_datasets/church_GO/church_GO.test.arff' 
+[2023-03-04 9:42:40.778] [INFO] Computing testing error 
+[2023-03-04 9:42:54.995] [INFO] Output written to: church_GO.out 
+[2023-03-04 9:42:54.998] [INFO] Done. 
+Clus v2.12.7
+Software for Predictive Clustering
+
+Copyright (C) 2007 - 2023
+   Katholieke Universiteit Leuven, Leuven, Belgium
+   Jozef Stefan Institute, Ljubljana, Slovenia
+
+This program is free software and comes with ABSOLUTELY NO
+WARRANTY. You are welcome to redistribute it under certain
+conditions. Type 'clus -copying' for distribution details.
+
+Logging properties file logging.properties not found! Console output only.
+[2023-03-04 9:42:55.404] [INFO] Loading 'derisi_FUN' 
+[2023-03-04 9:42:55.411] [INFO] Reading ARFF Header 
+[2023-03-04 9:42:55.444] [INFO] Reading CSV Data 
+[2023-03-04 9:42:55.552] [INFO] Found 2450 rows 
+[2023-03-04 9:42:55.553] [INFO] Space required by nominal attributes: 0 bytes/tuple regular, 0 bytes/tuple bitwise 
+[2023-03-04 9:42:55.620] [INFO] Clustering attributes check ==> #nominal: 0 #numeric: 0 
+[2023-03-04 9:42:55.621] [INFO] Classes type: class 
+[2023-03-04 9:42:55.683] [INFO] Has missing values: false 
+[2023-03-04 9:42:55.717] [INFO] Time: 04. 03. 2023 21:42:55 
+[2023-03-04 9:42:55.718] [INFO] Run: 01 
+[2023-03-04 9:42:55.718] [INFO] TDIDT (Tuning F-Test) 
+[2023-03-04 9:42:55.720] [INFO] Heuristic: Variance Reduction (FTest = 1.0, Weights (649)) 
+[2023-03-04 9:42:55.721] [INFO] Try for F-test value = 0.005 
+Warning:
+Static random has been called. This may not work in parallel setting.
+There will be no additional warnings for this.
+[2023-03-04 9:42:57.377] [INFO]  
+[2023-03-04 9:42:57.420] [INFO] F-Test = 0.125 limit = 2.35 values = 33 
+[2023-03-04 9:42:57.421] [INFO] Try for F-test value = 0.125 
+[2023-03-04 9:43:01.373] [INFO]  
+[2023-03-04 9:43:01.375] [INFO] F-Test = 0.125 limit = 2.35 values = 33 
+[2023-03-04 9:43:01.376] [INFO] Try for F-test value = 0.125 
+[2023-03-04 9:43:05.307] [INFO]  
+[2023-03-04 9:43:05.308] [INFO] Best F-test value is: 0.005 
+[2023-03-04 9:43:05.308] [INFO]  
+[2023-03-04 9:43:06.154] [INFO] Loading 'raw_datasets/derisi_FUN/derisi_FUN.test.arff' 
+[2023-03-04 9:43:06.190] [INFO] Computing testing error 
+[2023-03-04 9:43:07.248] [INFO] Output written to: derisi_FUN.out 
+[2023-03-04 9:43:07.251] [INFO] Done. 
+Clus v2.12.7
+Software for Predictive Clustering
+
+Copyright (C) 2007 - 2023
+   Katholieke Universiteit Leuven, Leuven, Belgium
+   Jozef Stefan Institute, Ljubljana, Slovenia
+
+This program is free software and comes with ABSOLUTELY NO
+WARRANTY. You are welcome to redistribute it under certain
+conditions. Type 'clus -copying' for distribution details.
+
+Logging properties file logging.properties not found! Console output only.
+[2023-03-04 9:43:07.578] [INFO] Loading 'derisi_GO' 
+[2023-03-04 9:43:07.585] [INFO] Reading ARFF Header 
+[2023-03-04 9:43:07.653] [INFO] Reading CSV Data 
+[2023-03-04 9:43:07.858] [INFO] Found 2447 rows 
+[2023-03-04 9:43:07.859] [INFO] Space required by nominal attributes: 0 bytes/tuple regular, 0 bytes/tuple bitwise 
+[2023-03-04 9:43:07.921] [INFO] Clustering attributes check ==> #nominal: 0 #numeric: 0 
+[2023-03-04 9:43:07.921] [INFO] Classes type: class 
+[2023-03-04 9:43:08.043] [INFO] Has missing values: false 
+[2023-03-04 9:43:08.067] [INFO] Time: 04. 03. 2023 21:43:08 
+[2023-03-04 9:43:08.068] [INFO] Run: 01 
+[2023-03-04 9:43:08.069] [INFO] TDIDT (Tuning F-Test) 
+[2023-03-04 9:43:08.069] [INFO] Heuristic: Variance Reduction (FTest = 1.0, Weights (8103)) 
+[2023-03-04 9:43:08.071] [INFO] Try for F-test value = 0.05 
+Warning:
+Static random has been called. This may not work in parallel setting.
+There will be no additional warnings for this.
+[2023-03-04 9:43:33.276] [INFO]  
+[2023-03-04 9:43:33.339] [INFO] F-Test = 0.125 limit = 2.35 values = 33 
+[2023-03-04 9:43:33.340] [INFO] Try for F-test value = 0.125 
+[2023-03-04 9:44:14.915] [INFO]  
+[2023-03-04 9:44:14.916] [INFO] Try for F-test value = 0.05 
+[2023-03-04 9:44:39.519] [INFO]  
+[2023-03-04 9:44:39.519] [INFO] Best F-test value is: 0.05 
+[2023-03-04 9:44:39.520] [INFO]  
+[2023-03-04 9:44:52.987] [INFO] Loading 'raw_datasets/derisi_GO/derisi_GO.test.arff' 
+[2023-03-04 9:44:53.111] [INFO] Computing testing error 
+[2023-03-04 9:45:07.531] [INFO] Output written to: derisi_GO.out 
+[2023-03-04 9:45:07.533] [INFO] Done. 
+Clus v2.12.7
+Software for Predictive Clustering
+
+Copyright (C) 2007 - 2023
+   Katholieke Universiteit Leuven, Leuven, Belgium
+   Jozef Stefan Institute, Ljubljana, Slovenia
+
+This program is free software and comes with ABSOLUTELY NO
+WARRANTY. You are welcome to redistribute it under certain
+conditions. Type 'clus -copying' for distribution details.
+
+Logging properties file logging.properties not found! Console output only.
+[2023-03-04 9:45:07.890] [INFO] Loading 'eisen_FUN' 
+[2023-03-04 9:45:07.896] [INFO] Reading ARFF Header 
+[2023-03-04 9:45:07.931] [INFO] Reading CSV Data 
+[2023-03-04 9:45:08.027] [INFO] Found 1587 rows 
+[2023-03-04 9:45:08.028] [INFO] Space required by nominal attributes: 0 bytes/tuple regular, 0 bytes/tuple bitwise 
+[2023-03-04 9:45:08.107] [INFO] Clustering attributes check ==> #nominal: 0 #numeric: 0 
+[2023-03-04 9:45:08.107] [INFO] Classes type: class 
+[2023-03-04 9:45:08.172] [INFO] Has missing values: true 
+[2023-03-04 9:45:08.184] [INFO] Time: 04. 03. 2023 21:45:08 
+[2023-03-04 9:45:08.185] [INFO] Run: 01 
+[2023-03-04 9:45:08.185] [INFO] TDIDT (Tuning F-Test) 
+[2023-03-04 9:45:08.186] [INFO] Heuristic: Variance Reduction (FTest = 1.0, Weights (632)) 
+[2023-03-04 9:45:08.187] [INFO] Try for F-test value = 0.05 
+Warning:
+Static random has been called. This may not work in parallel setting.
+There will be no additional warnings for this.
+[2023-03-04 9:45:09.715] [INFO]  
+[2023-03-04 9:45:09.716] [INFO] Try for F-test value = 0.1 
+[2023-03-04 9:45:11.679] [INFO]  
+[2023-03-04 9:45:11.679] [INFO] Try for F-test value = 0.1 
+[2023-03-04 9:45:13.624] [INFO]  
+[2023-03-04 9:45:13.625] [INFO] Best F-test value is: 0.05 
+[2023-03-04 9:45:13.625] [INFO]  
+[2023-03-04 9:45:14.237] [INFO] Loading 'raw_datasets/eisen_FUN/eisen_FUN.test.arff' 
+[2023-03-04 9:45:14.271] [INFO] Computing testing error 
+[2023-03-04 9:45:15.115] [INFO] Output written to: eisen_FUN.out 
+[2023-03-04 9:45:15.117] [INFO] Done. 
+Clus v2.12.7
+Software for Predictive Clustering
+
+Copyright (C) 2007 - 2023
+   Katholieke Universiteit Leuven, Leuven, Belgium
+   Jozef Stefan Institute, Ljubljana, Slovenia
+
+This program is free software and comes with ABSOLUTELY NO
+WARRANTY. You are welcome to redistribute it under certain
+conditions. Type 'clus -copying' for distribution details.
+
+Logging properties file logging.properties not found! Console output only.
+[2023-03-04 9:45:15.499] [INFO] Loading 'eisen_GO' 
+[2023-03-04 9:45:15.506] [INFO] Reading ARFF Header 
+[2023-03-04 9:45:15.575] [INFO] Reading CSV Data 
+[2023-03-04 9:45:15.773] [INFO] Found 1583 rows 
+[2023-03-04 9:45:15.774] [INFO] Space required by nominal attributes: 0 bytes/tuple regular, 0 bytes/tuple bitwise 
+[2023-03-04 9:45:15.840] [INFO] Clustering attributes check ==> #nominal: 0 #numeric: 0 
+[2023-03-04 9:45:15.841] [INFO] Classes type: class 
+[2023-03-04 9:45:15.930] [INFO] Has missing values: true 
+[2023-03-04 9:45:15.951] [INFO] Time: 04. 03. 2023 21:45:15 
+[2023-03-04 9:45:15.952] [INFO] Run: 01 
+[2023-03-04 9:45:15.953] [INFO] TDIDT (Tuning F-Test) 
+[2023-03-04 9:45:15.954] [INFO] Heuristic: Variance Reduction (FTest = 1.0, Weights (7073)) 
+[2023-03-04 9:45:15.955] [INFO] Try for F-test value = 0.1 
+Warning:
+Static random has been called. This may not work in parallel setting.
+There will be no additional warnings for this.
+[2023-03-04 9:45:32.569] [INFO]  
+[2023-03-04 9:45:32.604] [INFO] F-Test = 0.125 limit = 2.35 values = 33 
+[2023-03-04 9:45:32.605] [INFO] Try for F-test value = 0.125 
+[2023-03-04 9:45:52.845] [INFO]  
+[2023-03-04 9:45:52.846] [INFO] F-Test = 0.125 limit = 2.35 values = 33 
+[2023-03-04 9:45:52.847] [INFO] Try for F-test value = 0.125 
+[2023-03-04 9:46:12.990] [INFO]  
+[2023-03-04 9:46:12.991] [INFO] Best F-test value is: 0.1 
+[2023-03-04 9:46:12.991] [INFO]  
+[2023-03-04 9:46:21.056] [INFO] Loading 'raw_datasets/eisen_GO/eisen_GO.test.arff' 
+[2023-03-04 9:46:21.166] [INFO] Computing testing error 
+[2023-03-04 9:46:29.966] [INFO] Output written to: eisen_GO.out 
+[2023-03-04 9:46:29.969] [INFO] Done. 
+Clus v2.12.7
+Software for Predictive Clustering
+
+Copyright (C) 2007 - 2023
+   Katholieke Universiteit Leuven, Leuven, Belgium
+   Jozef Stefan Institute, Ljubljana, Slovenia
+
+This program is free software and comes with ABSOLUTELY NO
+WARRANTY. You are welcome to redistribute it under certain
+conditions. Type 'clus -copying' for distribution details.
+
+Logging properties file logging.properties not found! Console output only.
+[2023-03-04 9:46:30.332] [INFO] Loading 'expr_FUN' 
+[2023-03-04 9:46:30.339] [INFO] Reading ARFF Header 
+[2023-03-04 9:46:30.390] [INFO] Reading CSV Data 
+[2023-03-04 9:46:30.873] [INFO] Found 2488 rows 
+[2023-03-04 9:46:30.874] [INFO] Space required by nominal attributes: 16 bytes/tuple regular, 0 bytes/tuple bitwise 
+[2023-03-04 9:46:30.948] [INFO] Clustering attributes check ==> #nominal: 0 #numeric: 0 
+[2023-03-04 9:46:30.949] [INFO] Classes type: class 
+[2023-03-04 9:46:31.078] [INFO] Has missing values: true 
+[2023-03-04 9:46:31.094] [INFO] Time: 04. 03. 2023 21:46:31 
+[2023-03-04 9:46:31.094] [INFO] Run: 01 
+[2023-03-04 9:46:31.095] [INFO] TDIDT (Tuning F-Test) 
+[2023-03-04 9:46:31.096] [INFO] Heuristic: Variance Reduction (FTest = 1.0, Weights (1137)) 
+[2023-03-04 9:46:31.097] [INFO] Try for F-test value = 0.01 
+Warning:
+Static random has been called. This may not work in parallel setting.
+There will be no additional warnings for this.
+[2023-03-04 9:46:44.022] [INFO]  
+[2023-03-04 9:46:44.029] [INFO] F-Test = 0.125 limit = 2.35 values = 33 
+[2023-03-04 9:46:44.030] [INFO] Try for F-test value = 0.125 
+[2023-03-04 9:47:27.679] [INFO]  
+[2023-03-04 9:47:27.679] [INFO] Try for F-test value = 0.1 
+[2023-03-04 9:48:04.952] [INFO]  
+[2023-03-04 9:48:04.952] [INFO] Best F-test value is: 0.01 
+[2023-03-04 9:48:04.953] [INFO]  
+[2023-03-04 9:48:11.172] [INFO] Loading 'raw_datasets/expr_FUN/expr_FUN.test.arff' 
+[2023-03-04 9:48:11.313] [INFO] Computing testing error 
+[2023-03-04 9:48:12.373] [INFO] Output written to: expr_FUN.out 
+[2023-03-04 9:48:12.375] [INFO] Done. 
+Clus v2.12.7
+Software for Predictive Clustering
+
+Copyright (C) 2007 - 2023
+   Katholieke Universiteit Leuven, Leuven, Belgium
+   Jozef Stefan Institute, Ljubljana, Slovenia
+
+This program is free software and comes with ABSOLUTELY NO
+WARRANTY. You are welcome to redistribute it under certain
+conditions. Type 'clus -copying' for distribution details.
+
+Logging properties file logging.properties not found! Console output only.
+[2023-03-04 9:48:12.696] [INFO] Loading 'expr_GO' 
+[2023-03-04 9:48:12.702] [INFO] Reading ARFF Header 
+[2023-03-04 9:48:12.776] [INFO] Reading CSV Data 
+[2023-03-04 9:48:13.340] [INFO] Found 2485 rows 
+[2023-03-04 9:48:13.341] [INFO] Space required by nominal attributes: 16 bytes/tuple regular, 0 bytes/tuple bitwise 
+[2023-03-04 9:48:13.400] [INFO] Clustering attributes check ==> #nominal: 0 #numeric: 0 
+[2023-03-04 9:48:13.401] [INFO] Classes type: class 
+[2023-03-04 9:48:13.588] [INFO] Has missing values: true 
+[2023-03-04 9:48:13.610] [INFO] Time: 04. 03. 2023 21:48:13 
+[2023-03-04 9:48:13.611] [INFO] Run: 01 
+[2023-03-04 9:48:13.611] [INFO] TDIDT (Tuning F-Test) 
+[2023-03-04 9:48:13.612] [INFO] Heuristic: Variance Reduction (FTest = 1.0, Weights (8619)) 
+[2023-03-04 9:48:13.614] [INFO] Try for F-test value = 0.05 
+Warning:
+Static random has been called. This may not work in parallel setting.
+There will be no additional warnings for this.
+[2023-03-04 9:51:57.518] [INFO]  
+[2023-03-04 9:51:57.524] [INFO] F-Test = 0.125 limit = 2.35 values = 33 
+[2023-03-04 9:51:57.525] [INFO] Try for F-test value = 0.125 
+[2023-03-04 9:59:22.407] [INFO]  
+[2023-03-04 9:59:22.407] [INFO] Try for F-test value = 0.05 
+[2023-03-04 10:03:07.072] [INFO]  
+[2023-03-04 10:03:07.073] [INFO] Best F-test value is: 0.05 
+[2023-03-04 10:03:07.074] [INFO]  
+[2023-03-04 10:05:14.319] [INFO] Output written to: expr_GO.out 
+[2023-03-04 10:05:14.322] [INFO] Done. 
+Clus v2.12.7
+Software for Predictive Clustering
+
+Copyright (C) 2007 - 2023
+   Katholieke Universiteit Leuven, Leuven, Belgium
+   Jozef Stefan Institute, Ljubljana, Slovenia
+
+This program is free software and comes with ABSOLUTELY NO
+WARRANTY. You are welcome to redistribute it under certain
+conditions. Type 'clus -copying' for distribution details.
+
+Logging properties file logging.properties not found! Console output only.
+[2023-03-04 10:05:14.670] [INFO] Loading 'gasch1_FUN' 
+[2023-03-04 10:05:14.678] [INFO] Reading ARFF Header 
+[2023-03-04 10:05:14.708] [INFO] Reading CSV Data 
+[2023-03-04 10:05:14.928] [INFO] Found 2480 rows 
+[2023-03-04 10:05:14.929] [INFO] Space required by nominal attributes: 0 bytes/tuple regular, 0 bytes/tuple bitwise 
+[2023-03-04 10:05:14.997] [INFO] Clustering attributes check ==> #nominal: 0 #numeric: 0 
+[2023-03-04 10:05:14.998] [INFO] Classes type: class 
+[2023-03-04 10:05:15.064] [INFO] Has missing values: true 
+[2023-03-04 10:05:15.078] [INFO] Time: 04. 03. 2023 22:05:15 
+[2023-03-04 10:05:15.078] [INFO] Run: 01 
+[2023-03-04 10:05:15.079] [INFO] TDIDT (Tuning F-Test) 
+[2023-03-04 10:05:15.080] [INFO] Heuristic: Variance Reduction (FTest = 1.0, Weights (759)) 
+[2023-03-04 10:05:15.081] [INFO] Try for F-test value = 0.01 
+Warning:
+Static random has been called. This may not work in parallel setting.
+There will be no additional warnings for this.
+[2023-03-04 10:05:18.369] [INFO]  
+[2023-03-04 10:05:18.369] [INFO] Try for F-test value = 0.1 
+[2023-03-04 10:05:26.309] [INFO]  
+[2023-03-04 10:05:26.309] [INFO] Try for F-test value = 0.1 
+[2023-03-04 10:05:34.222] [INFO]  
+[2023-03-04 10:05:34.222] [INFO] Best F-test value is: 0.01 
+[2023-03-04 10:05:34.223] [INFO]  
+[2023-03-04 10:05:35.788] [INFO] Loading 'raw_datasets/gasch1_FUN/gasch1_FUN.test.arff' 
+[2023-03-04 10:05:35.856] [INFO] Computing testing error 
+[2023-03-04 10:05:36.973] [INFO] Output written to: gasch1_FUN.out 
+[2023-03-04 10:05:36.975] [INFO] Done. 
+Clus v2.12.7
+Software for Predictive Clustering
+
+Copyright (C) 2007 - 2023
+   Katholieke Universiteit Leuven, Leuven, Belgium
+   Jozef Stefan Institute, Ljubljana, Slovenia
+
+This program is free software and comes with ABSOLUTELY NO
+WARRANTY. You are welcome to redistribute it under certain
+conditions. Type 'clus -copying' for distribution details.
+
+Logging properties file logging.properties not found! Console output only.
+[2023-03-04 10:05:37.323] [INFO] Loading 'gasch1_GO' 
+[2023-03-04 10:05:37.329] [INFO] Reading ARFF Header 
+[2023-03-04 10:05:37.400] [INFO] Reading CSV Data 
+[2023-03-04 10:05:37.713] [INFO] Found 2477 rows 
+[2023-03-04 10:05:37.714] [INFO] Space required by nominal attributes: 0 bytes/tuple regular, 0 bytes/tuple bitwise 
+[2023-03-04 10:05:37.786] [INFO] Clustering attributes check ==> #nominal: 0 #numeric: 0 
+[2023-03-04 10:05:37.786] [INFO] Classes type: class 
+[2023-03-04 10:05:37.918] [INFO] Has missing values: true 
+[2023-03-04 10:05:37.940] [INFO] Time: 04. 03. 2023 22:05:37 
+[2023-03-04 10:05:37.941] [INFO] Run: 01 
+[2023-03-04 10:05:37.941] [INFO] TDIDT (Tuning F-Test) 
+[2023-03-04 10:05:37.942] [INFO] Heuristic: Variance Reduction (FTest = 1.0, Weights (8238)) 
+[2023-03-04 10:05:37.944] [INFO] Try for F-test value = 0.05 
+Warning:
+Static random has been called. This may not work in parallel setting.
+There will be no additional warnings for this.
+[2023-03-04 10:06:28.345] [INFO]  
+[2023-03-04 10:06:28.389] [INFO] F-Test = 0.125 limit = 2.35 values = 33 
+[2023-03-04 10:06:28.390] [INFO] Try for F-test value = 0.125 
+[2023-03-04 10:08:16.383] [INFO]  
+[2023-03-04 10:08:16.383] [INFO] Try for F-test value = 0.05 
+[2023-03-04 10:09:05.833] [INFO]  
+[2023-03-04 10:09:05.834] [INFO] Best F-test value is: 0.05 
+[2023-03-04 10:09:05.834] [INFO]  
+[2023-03-04 10:09:31.415] [INFO] Loading 'raw_datasets/gasch1_GO/gasch1_GO.test.arff' 
+[2023-03-04 10:09:31.565] [INFO] Computing testing error 
+[2023-03-04 10:09:49.079] [INFO] Output written to: gasch1_GO.out 
+[2023-03-04 10:09:49.081] [INFO] Done. 
+Clus v2.12.7
+Software for Predictive Clustering
+
+Copyright (C) 2007 - 2023
+   Katholieke Universiteit Leuven, Leuven, Belgium
+   Jozef Stefan Institute, Ljubljana, Slovenia
+
+This program is free software and comes with ABSOLUTELY NO
+WARRANTY. You are welcome to redistribute it under certain
+conditions. Type 'clus -copying' for distribution details.
+
+Logging properties file logging.properties not found! Console output only.
+[2023-03-04 10:09:49.474] [INFO] Loading 'gasch2_FUN' 
+[2023-03-04 10:09:49.481] [INFO] Reading ARFF Header 
+[2023-03-04 10:09:49.513] [INFO] Reading CSV Data 
+[2023-03-04 10:09:49.622] [INFO] Found 2488 rows 
+[2023-03-04 10:09:49.623] [INFO] Space required by nominal attributes: 0 bytes/tuple regular, 0 bytes/tuple bitwise 
+[2023-03-04 10:09:49.713] [INFO] Clustering attributes check ==> #nominal: 0 #numeric: 0 
+[2023-03-04 10:09:49.714] [INFO] Classes type: class 
+[2023-03-04 10:09:49.778] [INFO] Has missing values: true 
+[2023-03-04 10:09:49.794] [INFO] Time: 04. 03. 2023 22:09:49 
+[2023-03-04 10:09:49.795] [INFO] Run: 01 
+[2023-03-04 10:09:49.796] [INFO] TDIDT (Tuning F-Test) 
+[2023-03-04 10:09:49.796] [INFO] Heuristic: Variance Reduction (FTest = 1.0, Weights (638)) 
+[2023-03-04 10:09:49.797] [INFO] Try for F-test value = 0.05 
+Warning:
+Static random has been called. This may not work in parallel setting.
+There will be no additional warnings for this.
+[2023-03-04 10:09:52.611] [INFO]  
+[2023-03-04 10:09:52.651] [INFO] F-Test = 0.125 limit = 2.35 values = 33 
+[2023-03-04 10:09:52.651] [INFO] Try for F-test value = 0.125 
+[2023-03-04 10:09:57.399] [INFO]  
+[2023-03-04 10:09:57.400] [INFO] F-Test = 0.125 limit = 2.35 values = 33 
+[2023-03-04 10:09:57.401] [INFO] Try for F-test value = 0.125 
+[2023-03-04 10:10:02.109] [INFO]  
+[2023-03-04 10:10:02.109] [INFO] Best F-test value is: 0.05 
+[2023-03-04 10:10:02.110] [INFO]  
+[2023-03-04 10:10:03.651] [INFO] Loading 'raw_datasets/gasch2_FUN/gasch2_FUN.test.arff' 
+[2023-03-04 10:10:03.684] [INFO] Computing testing error 
+[2023-03-04 10:10:05.142] [INFO] Output written to: gasch2_FUN.out 
+[2023-03-04 10:10:05.144] [INFO] Done. 
+Clus v2.12.7
+Software for Predictive Clustering
+
+Copyright (C) 2007 - 2023
+   Katholieke Universiteit Leuven, Leuven, Belgium
+   Jozef Stefan Institute, Ljubljana, Slovenia
+
+This program is free software and comes with ABSOLUTELY NO
+WARRANTY. You are welcome to redistribute it under certain
+conditions. Type 'clus -copying' for distribution details.
+
+Logging properties file logging.properties not found! Console output only.
+[2023-03-04 10:10:05.535] [INFO] Loading 'gasch2_GO' 
+[2023-03-04 10:10:05.541] [INFO] Reading ARFF Header 
+[2023-03-04 10:10:05.616] [INFO] Reading CSV Data 
+[2023-03-04 10:10:05.851] [INFO] Found 2485 rows 
+[2023-03-04 10:10:05.852] [INFO] Space required by nominal attributes: 0 bytes/tuple regular, 0 bytes/tuple bitwise 
+[2023-03-04 10:10:05.912] [INFO] Clustering attributes check ==> #nominal: 0 #numeric: 0 
+[2023-03-04 10:10:05.913] [INFO] Classes type: class 
+[2023-03-04 10:10:06.025] [INFO] Has missing values: true 
+[2023-03-04 10:10:06.050] [INFO] Time: 04. 03. 2023 22:10:06 
+[2023-03-04 10:10:06.051] [INFO] Run: 01 
+[2023-03-04 10:10:06.052] [INFO] TDIDT (Tuning F-Test) 
+[2023-03-04 10:10:06.053] [INFO] Heuristic: Variance Reduction (FTest = 1.0, Weights (8120)) 
+[2023-03-04 10:10:06.054] [INFO] Try for F-test value = 0.05 
+Warning:
+Static random has been called. This may not work in parallel setting.
+There will be no additional warnings for this.
+[2023-03-04 10:10:38.300] [INFO]  
+[2023-03-04 10:10:38.339] [INFO] F-Test = 0.125 limit = 2.35 values = 33 
+[2023-03-04 10:10:38.340] [INFO] Try for F-test value = 0.125 
+[2023-03-04 10:11:33.886] [INFO]  
+[2023-03-04 10:11:33.888] [INFO] F-Test = 0.125 limit = 2.35 values = 33 
+[2023-03-04 10:11:33.889] [INFO] Try for F-test value = 0.125 
+[2023-03-04 10:12:28.416] [INFO]  
+[2023-03-04 10:12:28.416] [INFO] Best F-test value is: 0.05 
+[2023-03-04 10:12:28.417] [INFO]  
+[2023-03-04 10:12:44.037] [INFO] Loading 'raw_datasets/gasch2_GO/gasch2_GO.test.arff' 
+[2023-03-04 10:12:44.149] [INFO] Computing testing error 
+[2023-03-04 10:12:59.557] [INFO] Output written to: gasch2_GO.out 
+[2023-03-04 10:12:59.560] [INFO] Done. 
+Clus v2.12.7
+Software for Predictive Clustering
+
+Copyright (C) 2007 - 2023
+   Katholieke Universiteit Leuven, Leuven, Belgium
+   Jozef Stefan Institute, Ljubljana, Slovenia
+
+This program is free software and comes with ABSOLUTELY NO
+WARRANTY. You are welcome to redistribute it under certain
+conditions. Type 'clus -copying' for distribution details.
+
+Logging properties file logging.properties not found! Console output only.
+[2023-03-04 10:12:59.988] [INFO] Loading 'hom_FUN' 
+[2023-03-04 10:12:59.995] [INFO] Reading ARFF Header 
+[2023-03-04 10:13:00.227] [INFO] Reading CSV Data 
+[2023-03-04 10:13:24.898] [INFO] Found 2539 rows 
+[2023-03-04 10:13:24.899] [INFO] Space required by nominal attributes: 188136 bytes/tuple regular, 0 bytes/tuple bitwise 
+[2023-03-04 10:13:24.957] [INFO] Clustering attributes check ==> #nominal: 0 #numeric: 0 
+[2023-03-04 10:13:24.967] [INFO] Classes type: class 
+[2023-03-04 10:13:27.327] [INFO] Has missing values: false 
+[2023-03-04 10:13:27.347] [INFO] Time: 04. 03. 2023 22:13:27 
+[2023-03-04 10:13:27.348] [INFO] Run: 01 
+[2023-03-04 10:13:27.349] [INFO] TDIDT (Tuning F-Test) 
+[2023-03-04 10:13:27.349] [INFO] Heuristic: Variance Reduction (FTest = 1.0, Weights (47620)) 
+[2023-03-04 10:13:27.350] [INFO] Try for F-test value = 0.05 
+Warning:
+Static random has been called. This may not work in parallel setting.
+There will be no additional warnings for this.
+[2023-03-04 10:14:49.514] [INFO]  
+[2023-03-04 10:14:49.514] [INFO] Try for F-test value = 0.1 
+[2023-03-04 10:16:40.681] [INFO]  
+[2023-03-04 10:16:40.681] [INFO] Try for F-test value = 0.05 
+[2023-03-04 10:18:01.721] [INFO]  
+[2023-03-04 10:18:01.721] [INFO] Best F-test value is: 0.05 
+[2023-03-04 10:18:01.722] [INFO]  
+[2023-03-04 10:18:51.643] [INFO] Loading 'raw_datasets/hom_FUN/hom_FUN.test.arff' 
+[2023-03-04 10:19:03.023] [INFO] Computing testing error 
+[2023-03-04 10:19:03.961] [INFO] Output written to: hom_FUN.out 
+[2023-03-04 10:19:03.963] [INFO] Done. 
+Clus v2.12.7
+Software for Predictive Clustering
+
+Copyright (C) 2007 - 2023
+   Katholieke Universiteit Leuven, Leuven, Belgium
+   Jozef Stefan Institute, Ljubljana, Slovenia
+
+This program is free software and comes with ABSOLUTELY NO
+WARRANTY. You are welcome to redistribute it under certain
+conditions. Type 'clus -copying' for distribution details.
+
+Logging properties file logging.properties not found! Console output only.
+[2023-03-04 10:19:04.516] [INFO] Loading 'hom_GO' 
+[2023-03-04 10:19:04.529] [INFO] Reading ARFF Header 
+[2023-03-04 10:19:04.805] [INFO] Reading CSV Data 
+[2023-03-04 10:19:31.219] [INFO] Found 2528 rows 
+[2023-03-04 10:19:31.220] [INFO] Space required by nominal attributes: 188136 bytes/tuple regular, 0 bytes/tuple bitwise 
+[2023-03-04 10:19:31.283] [INFO] Clustering attributes check ==> #nominal: 0 #numeric: 0 
+[2023-03-04 10:19:31.294] [INFO] Classes type: class 
+[2023-03-04 10:19:33.761] [INFO] Has missing values: false 
+[2023-03-04 10:19:33.787] [INFO] Time: 04. 03. 2023 22:19:33 
+[2023-03-04 10:19:33.787] [INFO] Run: 01 
+[2023-03-04 10:19:33.788] [INFO] TDIDT (Tuning F-Test) 
+[2023-03-04 10:19:33.789] [INFO] Heuristic: Variance Reduction (FTest = 1.0, Weights (54484)) 
+[2023-03-04 10:19:33.790] [INFO] Try for F-test value = 0.05 
+Warning:
+Static random has been called. This may not work in parallel setting.
+There will be no additional warnings for this.
+[2023-03-04 10:30:27.924] [INFO]  
+[2023-03-04 10:30:27.925] [INFO] Try for F-test value = 0.1 
+[2023-03-04 10:39:25.802] [INFO]  
+[2023-03-04 10:39:25.802] [INFO] Try for F-test value = 0.1 
+[2023-03-04 10:48:21.166] [INFO]  
+[2023-03-04 10:48:21.167] [INFO] Best F-test value is: 0.05 
+[2023-03-04 10:48:21.168] [INFO]  
+[2023-03-04 10:51:33.321] [INFO] Loading 'raw_datasets/hom_GO/hom_GO.test.arff' 
+[2023-03-04 10:51:45.738] [INFO] Computing testing error 
+[2023-03-04 10:51:56.601] [INFO] Output written to: hom_GO.out 
+[2023-03-04 10:51:56.604] [INFO] Done. 
+Clus v2.12.7
+Software for Predictive Clustering
+
+Copyright (C) 2007 - 2023
+   Katholieke Universiteit Leuven, Leuven, Belgium
+   Jozef Stefan Institute, Ljubljana, Slovenia
+
+This program is free software and comes with ABSOLUTELY NO
+WARRANTY. You are welcome to redistribute it under certain
+conditions. Type 'clus -copying' for distribution details.
+
+Logging properties file logging.properties not found! Console output only.
+[2023-03-04 10:51:56.972] [INFO] Loading 'pheno_FUN' 
+[2023-03-04 10:51:56.979] [INFO] Reading ARFF Header 
+[2023-03-04 10:51:57.019] [INFO] Reading CSV Data 
+[2023-03-04 10:51:57.080] [INFO] Found 1009 rows 
+[2023-03-04 10:51:57.081] [INFO] Space required by nominal attributes: 276 bytes/tuple regular, 0 bytes/tuple bitwise 
+[2023-03-04 10:51:57.154] [INFO] Clustering attributes check ==> #nominal: 0 #numeric: 0 
+[2023-03-04 10:51:57.154] [INFO] Classes type: class 
+[2023-03-04 10:51:57.244] [INFO] Has missing values: false 
+[2023-03-04 10:51:57.254] [INFO] Time: 04. 03. 2023 22:51:57 
+[2023-03-04 10:51:57.255] [INFO] Run: 01 
+[2023-03-04 10:51:57.256] [INFO] TDIDT (Tuning F-Test) 
+[2023-03-04 10:51:57.257] [INFO] Heuristic: Variance Reduction (FTest = 1.0, Weights (618)) 
+[2023-03-04 10:51:57.265] [INFO] F-Test = 0.125 limit = 2.35 values = 33 
+[2023-03-04 10:51:57.265] [INFO] Try for F-test value = 0.125 
+Warning:
+Static random has been called. This may not work in parallel setting.
+There will be no additional warnings for this.
+[2023-03-04 10:51:57.456] [INFO]  
+[2023-03-04 10:51:57.458] [INFO] F-Test = 0.125 limit = 2.35 values = 33 
+[2023-03-04 10:51:57.459] [INFO] Try for F-test value = 0.125 
+[2023-03-04 10:51:57.529] [INFO]  
+[2023-03-04 10:51:57.530] [INFO] F-Test = 0.125 limit = 2.35 values = 33 
+[2023-03-04 10:51:57.530] [INFO] Try for F-test value = 0.125 
+[2023-03-04 10:51:57.602] [INFO]  
+[2023-03-04 10:51:57.603] [INFO] F-Test = 0.125 limit = 2.35 values = 33 
+[2023-03-04 10:51:57.604] [INFO] Best F-test value is: 0.125 
+[2023-03-04 10:51:57.605] [INFO]  
+[2023-03-04 10:51:57.673] [INFO] Loading 'raw_datasets/pheno_FUN/pheno_FUN.test.arff' 
+[2023-03-04 10:51:57.702] [INFO] Computing testing error 
+[2023-03-04 10:51:58.437] [INFO] Output written to: pheno_FUN.out 
+[2023-03-04 10:51:58.441] [INFO] Done. 
+Clus v2.12.7
+Software for Predictive Clustering
+
+Copyright (C) 2007 - 2023
+   Katholieke Universiteit Leuven, Leuven, Belgium
+   Jozef Stefan Institute, Ljubljana, Slovenia
+
+This program is free software and comes with ABSOLUTELY NO
+WARRANTY. You are welcome to redistribute it under certain
+conditions. Type 'clus -copying' for distribution details.
+
+Logging properties file logging.properties not found! Console output only.
+[2023-03-04 10:51:58.773] [INFO] Loading 'pheno_GO' 
+[2023-03-04 10:51:58.779] [INFO] Reading ARFF Header 
+[2023-03-04 10:51:58.846] [INFO] Reading CSV Data 
+[2023-03-04 10:51:58.984] [INFO] Found 1005 rows 
+[2023-03-04 10:51:58.985] [INFO] Space required by nominal attributes: 276 bytes/tuple regular, 0 bytes/tuple bitwise 
+[2023-03-04 10:51:59.071] [INFO] Clustering attributes check ==> #nominal: 0 #numeric: 0 
+[2023-03-04 10:51:59.071] [INFO] Classes type: class 
+[2023-03-04 10:51:59.223] [INFO] Has missing values: false 
+[2023-03-04 10:51:59.241] [INFO] Time: 04. 03. 2023 22:51:59 
+[2023-03-04 10:51:59.242] [INFO] Run: 01 
+[2023-03-04 10:51:59.243] [INFO] TDIDT (Tuning F-Test) 
+[2023-03-04 10:51:59.243] [INFO] Heuristic: Variance Reduction (FTest = 1.0, Weights (6383)) 
+[2023-03-04 10:51:59.252] [INFO] F-Test = 0.125 limit = 2.35 values = 33 
+[2023-03-04 10:51:59.253] [INFO] Try for F-test value = 0.125 
+Warning:
+Static random has been called. This may not work in parallel setting.
+There will be no additional warnings for this.
+[2023-03-04 10:52:00.990] [INFO]  
+[2023-03-04 10:52:00.992] [INFO] F-Test = 0.125 limit = 2.35 values = 33 
+[2023-03-04 10:52:00.993] [INFO] Try for F-test value = 0.125 
+[2023-03-04 10:52:02.287] [INFO]  
+[2023-03-04 10:52:02.288] [INFO] F-Test = 0.125 limit = 2.35 values = 33 
+[2023-03-04 10:52:02.289] [INFO] Try for F-test value = 0.125 
+[2023-03-04 10:52:03.574] [INFO]  
+[2023-03-04 10:52:03.575] [INFO] F-Test = 0.125 limit = 2.35 values = 33 
+[2023-03-04 10:52:03.576] [INFO] Best F-test value is: 0.125 
+[2023-03-04 10:52:03.577] [INFO]  
+[2023-03-04 10:52:04.061] [INFO] Loading 'raw_datasets/pheno_GO/pheno_GO.test.arff' 
+[2023-03-04 10:52:04.132] [INFO] Computing testing error 
+[2023-03-04 10:52:08.821] [INFO] Output written to: pheno_GO.out 
+[2023-03-04 10:52:08.823] [INFO] Done. 
+Clus v2.12.7
+Software for Predictive Clustering
+
+Copyright (C) 2007 - 2023
+   Katholieke Universiteit Leuven, Leuven, Belgium
+   Jozef Stefan Institute, Ljubljana, Slovenia
+
+This program is free software and comes with ABSOLUTELY NO
+WARRANTY. You are welcome to redistribute it under certain
+conditions. Type 'clus -copying' for distribution details.
+
+Logging properties file logging.properties not found! Console output only.
+[2023-03-04 10:52:09.246] [INFO] Loading 'seq_FUN' 
+[2023-03-04 10:52:09.252] [INFO] Reading ARFF Header 
+[2023-03-04 10:52:09.290] [INFO] Reading CSV Data 
+[2023-03-04 10:52:09.675] [INFO] Found 2580 rows 
+[2023-03-04 10:52:09.676] [INFO] Space required by nominal attributes: 20 bytes/tuple regular, 0 bytes/tuple bitwise 
+[2023-03-04 10:52:09.747] [INFO] Clustering attributes check ==> #nominal: 0 #numeric: 0 
+[2023-03-04 10:52:09.748] [INFO] Classes type: class 
+[2023-03-04 10:52:09.873] [INFO] Has missing values: true 
+[2023-03-04 10:52:09.888] [INFO] Time: 04. 03. 2023 22:52:09 
+[2023-03-04 10:52:09.889] [INFO] Run: 01 
+[2023-03-04 10:52:09.890] [INFO] TDIDT (Tuning F-Test) 
+[2023-03-04 10:52:09.890] [INFO] Heuristic: Variance Reduction (FTest = 1.0, Weights (1065)) 
+[2023-03-04 10:52:09.891] [INFO] Try for F-test value = 0.01 
+Warning:
+Static random has been called. This may not work in parallel setting.
+There will be no additional warnings for this.
+[2023-03-04 10:52:21.732] [INFO]  
+[2023-03-04 10:52:21.733] [INFO] Try for F-test value = 0.1 
+[2023-03-04 10:52:48.800] [INFO]  
+[2023-03-04 10:52:48.800] [INFO] Try for F-test value = 0.1 
+[2023-03-04 10:53:15.691] [INFO]  
+[2023-03-04 10:53:15.691] [INFO] Best F-test value is: 0.01 
+[2023-03-04 10:53:15.692] [INFO]  
+[2023-03-04 10:53:21.740] [INFO] Loading 'raw_datasets/seq_FUN/seq_FUN.test.arff' 
+[2023-03-04 10:53:21.854] [INFO] Computing testing error 
+[2023-03-04 10:53:22.796] [INFO] Output written to: seq_FUN.out 
+[2023-03-04 10:53:22.798] [INFO] Done. 
+Clus v2.12.7
+Software for Predictive Clustering
+
+Copyright (C) 2007 - 2023
+   Katholieke Universiteit Leuven, Leuven, Belgium
+   Jozef Stefan Institute, Ljubljana, Slovenia
+
+This program is free software and comes with ABSOLUTELY NO
+WARRANTY. You are welcome to redistribute it under certain
+conditions. Type 'clus -copying' for distribution details.
+
+Logging properties file logging.properties not found! Console output only.
+[2023-03-04 10:53:23.225] [INFO] Loading 'seq_GO' 
+[2023-03-04 10:53:23.230] [INFO] Reading ARFF Header 
+[2023-03-04 10:53:23.328] [INFO] Reading CSV Data 
+[2023-03-04 10:53:23.923] [INFO] Found 2568 rows 
+[2023-03-04 10:53:23.924] [INFO] Space required by nominal attributes: 20 bytes/tuple regular, 0 bytes/tuple bitwise 
+[2023-03-04 10:53:24.007] [INFO] Clustering attributes check ==> #nominal: 0 #numeric: 0 
+[2023-03-04 10:53:24.008] [INFO] Classes type: class 
+[2023-03-04 10:53:24.199] [INFO] Has missing values: true 
+[2023-03-04 10:53:24.220] [INFO] Time: 04. 03. 2023 22:53:24 
+[2023-03-04 10:53:24.221] [INFO] Run: 01 
+[2023-03-04 10:53:24.222] [INFO] TDIDT (Tuning F-Test) 
+[2023-03-04 10:53:24.223] [INFO] Heuristic: Variance Reduction (FTest = 1.0, Weights (8554)) 
+[2023-03-04 10:53:24.225] [INFO] Try for F-test value = 0.01 
+Warning:
+Static random has been called. This may not work in parallel setting.
+There will be no additional warnings for this.
+[2023-03-04 10:55:57.246] [INFO]  
+[2023-03-04 10:55:57.253] [INFO] F-Test = 0.125 limit = 2.35 values = 33 
+[2023-03-04 10:55:57.254] [INFO] Try for F-test value = 0.125 
+[2023-03-04 11:01:34.518] [INFO]  
+[2023-03-04 11:01:34.519] [INFO] Try for F-test value = 0.1 
+[2023-03-04 11:06:30.127] [INFO]  
+[2023-03-04 11:06:30.128] [INFO] Best F-test value is: 0.01 
+[2023-03-04 11:06:30.128] [INFO]  
+[2023-03-04 11:07:52.013] [INFO] Loading 'raw_datasets/seq_GO/seq_GO.test.arff' 
+[2023-03-04 11:07:52.262] [INFO] Computing testing error 
+[2023-03-04 11:08:04.488] [INFO] Output written to: seq_GO.out 
+[2023-03-04 11:08:04.492] [INFO] Done. 
+Clus v2.12.7
+Software for Predictive Clustering
+
+Copyright (C) 2007 - 2023
+   Katholieke Universiteit Leuven, Leuven, Belgium
+   Jozef Stefan Institute, Ljubljana, Slovenia
+
+This program is free software and comes with ABSOLUTELY NO
+WARRANTY. You are welcome to redistribute it under certain
+conditions. Type 'clus -copying' for distribution details.
+
+Logging properties file logging.properties not found! Console output only.
+[2023-03-04 11:08:05.088] [INFO] Loading 'spo_FUN' 
+[2023-03-04 11:08:05.095] [INFO] Reading ARFF Header 
+[2023-03-04 11:08:05.130] [INFO] Reading CSV Data 
+[2023-03-04 11:08:05.251] [INFO] Found 2437 rows 
+[2023-03-04 11:08:05.251] [INFO] Space required by nominal attributes: 12 bytes/tuple regular, 0 bytes/tuple bitwise 
+[2023-03-04 11:08:05.318] [INFO] Clustering attributes check ==> #nominal: 0 #numeric: 0 
+[2023-03-04 11:08:05.318] [INFO] Classes type: class 
+[2023-03-04 11:08:05.423] [INFO] Has missing values: true 
+[2023-03-04 11:08:05.436] [INFO] Time: 04. 03. 2023 23:08:05 
+[2023-03-04 11:08:05.437] [INFO] Run: 01 
+[2023-03-04 11:08:05.437] [INFO] TDIDT (Tuning F-Test) 
+[2023-03-04 11:08:05.438] [INFO] Heuristic: Variance Reduction (FTest = 1.0, Weights (666)) 
+[2023-03-04 11:08:05.439] [INFO] Try for F-test value = 0.005 
+Warning:
+Static random has been called. This may not work in parallel setting.
+There will be no additional warnings for this.
+[2023-03-04 11:08:07.113] [INFO]  
+[2023-03-04 11:08:07.113] [INFO] Try for F-test value = 0.1 
+[2023-03-04 11:08:11.390] [INFO]  
+[2023-03-04 11:08:11.390] [INFO] Try for F-test value = 0.1 
+[2023-03-04 11:08:15.638] [INFO]  
+[2023-03-04 11:08:15.638] [INFO] Best F-test value is: 0.005 
+[2023-03-04 11:08:15.639] [INFO]  
+[2023-03-04 11:08:16.568] [INFO] Loading 'raw_datasets/spo_FUN/spo_FUN.test.arff' 
+[2023-03-04 11:08:16.606] [INFO] Computing testing error 
+[2023-03-04 11:08:17.445] [INFO] Output written to: spo_FUN.out 
+[2023-03-04 11:08:17.448] [INFO] Done. 
+Clus v2.12.7
+Software for Predictive Clustering
+
+Copyright (C) 2007 - 2023
+   Katholieke Universiteit Leuven, Leuven, Belgium
+   Jozef Stefan Institute, Ljubljana, Slovenia
+
+This program is free software and comes with ABSOLUTELY NO
+WARRANTY. You are welcome to redistribute it under certain
+conditions. Type 'clus -copying' for distribution details.
+
+Logging properties file logging.properties not found! Console output only.
+[2023-03-04 11:08:17.755] [INFO] Loading 'spo_GO' 
+[2023-03-04 11:08:17.761] [INFO] Reading ARFF Header 
+[2023-03-04 11:08:17.832] [INFO] Reading CSV Data 
+[2023-03-04 11:08:18.062] [INFO] Found 2434 rows 
+[2023-03-04 11:08:18.063] [INFO] Space required by nominal attributes: 12 bytes/tuple regular, 0 bytes/tuple bitwise 
+[2023-03-04 11:08:18.127] [INFO] Clustering attributes check ==> #nominal: 0 #numeric: 0 
+[2023-03-04 11:08:18.128] [INFO] Classes type: class 
+[2023-03-04 11:08:18.271] [INFO] Has missing values: true 
+[2023-03-04 11:08:18.294] [INFO] Time: 04. 03. 2023 23:08:18 
+[2023-03-04 11:08:18.295] [INFO] Run: 01 
+[2023-03-04 11:08:18.295] [INFO] TDIDT (Tuning F-Test) 
+[2023-03-04 11:08:18.296] [INFO] Heuristic: Variance Reduction (FTest = 1.0, Weights (8121)) 
+[2023-03-04 11:08:18.298] [INFO] Try for F-test value = 0.05 
+Warning:
+Static random has been called. This may not work in parallel setting.
+There will be no additional warnings for this.
+[2023-03-04 11:08:51.159] [INFO]  
+[2023-03-04 11:08:51.165] [INFO] F-Test = 0.125 limit = 2.35 values = 33 
+[2023-03-04 11:08:51.166] [INFO] Try for F-test value = 0.125 
+[2023-03-04 11:10:00.446] [INFO]  
+[2023-03-04 11:10:00.446] [INFO] Try for F-test value = 0.1 
+[2023-03-04 11:10:51.678] [INFO]  
+[2023-03-04 11:10:51.679] [INFO] Best F-test value is: 0.05 
+[2023-03-04 11:10:51.680] [INFO]  
+[2023-03-04 11:11:09.120] [INFO] Loading 'raw_datasets/spo_GO/spo_GO.test.arff' 
+[2023-03-04 11:11:09.261] [INFO] Computing testing error 
+[2023-03-04 11:11:21.554] [INFO] Output written to: spo_GO.out 
+[2023-03-04 11:11:21.556] [INFO] Done. 
+Clus v2.12.7
+Software for Predictive Clustering
+
+Copyright (C) 2007 - 2023
+   Katholieke Universiteit Leuven, Leuven, Belgium
+   Jozef Stefan Institute, Ljubljana, Slovenia
+
+This program is free software and comes with ABSOLUTELY NO
+WARRANTY. You are welcome to redistribute it under certain
+conditions. Type 'clus -copying' for distribution details.
+
+Logging properties file logging.properties not found! Console output only.
+[2023-03-04 11:11:21.985] [INFO] Loading 'struc_FUN' 
+[2023-03-04 11:11:21.994] [INFO] Reading ARFF Header 
+[2023-03-04 11:11:22.135] [INFO] Reading CSV Data 
+[2023-03-04 11:11:34.186] [INFO] Found 2525 rows 
+[2023-03-04 11:11:34.187] [INFO] Space required by nominal attributes: 78512 bytes/tuple regular, 0 bytes/tuple bitwise 
+[2023-03-04 11:11:34.252] [INFO] Clustering attributes check ==> #nominal: 0 #numeric: 0 
+[2023-03-04 11:11:34.257] [INFO] Classes type: class 
+[2023-03-04 11:11:34.930] [INFO] Has missing values: false 
+[2023-03-04 11:11:34.948] [INFO] Time: 04. 03. 2023 23:11:34 
+[2023-03-04 11:11:34.949] [INFO] Run: 01 
+[2023-03-04 11:11:34.949] [INFO] TDIDT (Tuning F-Test) 
+[2023-03-04 11:11:34.950] [INFO] Heuristic: Variance Reduction (FTest = 1.0, Weights (20215)) 
+[2023-03-04 11:11:34.951] [INFO] Try for F-test value = 0.05 
+Warning:
+Static random has been called. This may not work in parallel setting.
+There will be no additional warnings for this.
+[2023-03-04 11:11:52.966] [INFO]  
+[2023-03-04 11:11:52.972] [INFO] F-Test = 0.125 limit = 2.35 values = 33 
+[2023-03-04 11:11:52.973] [INFO] Try for F-test value = 0.125 
+[2023-03-04 11:12:24.896] [INFO]  
+[2023-03-04 11:12:24.896] [INFO] Try for F-test value = 0.1 
+[2023-03-04 11:12:48.478] [INFO]  
+[2023-03-04 11:12:48.478] [INFO] Best F-test value is: 0.1 
+[2023-03-04 11:12:48.479] [INFO]  
+[2023-03-04 11:13:02.634] [INFO] Loading 'raw_datasets/struc_FUN/struc_FUN.test.arff' 
+[2023-03-04 11:13:07.501] [INFO] Computing testing error 
+[2023-03-04 11:13:08.786] [INFO] Output written to: struc_FUN.out 
+[2023-03-04 11:13:08.789] [INFO] Done. 
+Clus v2.12.7
+Software for Predictive Clustering
+
+Copyright (C) 2007 - 2023
+   Katholieke Universiteit Leuven, Leuven, Belgium
+   Jozef Stefan Institute, Ljubljana, Slovenia
+
+This program is free software and comes with ABSOLUTELY NO
+WARRANTY. You are welcome to redistribute it under certain
+conditions. Type 'clus -copying' for distribution details.
+
+Logging properties file logging.properties not found! Console output only.
+[2023-03-04 11:13:09.207] [INFO] Loading 'struc_GO' 
+[2023-03-04 11:13:09.219] [INFO] Reading ARFF Header 
+[2023-03-04 11:13:09.374] [INFO] Reading CSV Data 
+[2023-03-04 11:13:20.005] [INFO] Found 2518 rows 
+[2023-03-04 11:13:20.006] [INFO] Space required by nominal attributes: 78512 bytes/tuple regular, 0 bytes/tuple bitwise 
+[2023-03-04 11:13:20.081] [INFO] Clustering attributes check ==> #nominal: 0 #numeric: 0 
+[2023-03-04 11:13:20.086] [INFO] Classes type: class 
+[2023-03-04 11:13:20.808] [INFO] Has missing values: false 
+[2023-03-04 11:13:20.831] [INFO] Time: 04. 03. 2023 23:13:20 
+[2023-03-04 11:13:20.832] [INFO] Run: 01 
+[2023-03-04 11:13:20.833] [INFO] TDIDT (Tuning F-Test) 
+[2023-03-04 11:13:20.834] [INFO] Heuristic: Variance Reduction (FTest = 1.0, Weights (27093)) 
+[2023-03-04 11:13:20.835] [INFO] Try for F-test value = 0.05 
+Warning:
+Static random has been called. This may not work in parallel setting.
+There will be no additional warnings for this.
+[2023-03-04 11:14:26.347] [INFO]  
+[2023-03-04 11:14:26.354] [INFO] F-Test = 0.125 limit = 2.35 values = 33 
+[2023-03-04 11:14:26.355] [INFO] Try for F-test value = 0.125 
+[2023-03-04 11:17:00.065] [INFO]  
+[2023-03-04 11:17:00.066] [INFO] F-Test = 0.125 limit = 2.35 values = 33 
+[2023-03-04 11:17:00.067] [INFO] Try for F-test value = 0.125 
+[2023-03-04 11:19:31.875] [INFO]  
+[2023-03-04 11:19:31.875] [INFO] Best F-test value is: 0.05 
+[2023-03-04 11:19:31.876] [INFO]  
+[2023-03-04 11:20:07.457] [INFO] Loading 'raw_datasets/struc_GO/struc_GO.test.arff' 
+[2023-03-04 11:20:12.651] [INFO] Computing testing error 
+[2023-03-04 11:20:22.765] [INFO] Output written to: struc_GO.out 
+[2023-03-04 11:20:22.768] [INFO] Done. 

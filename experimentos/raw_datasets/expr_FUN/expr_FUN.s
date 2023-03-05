@@ -3,7 +3,7 @@
 
 [Data]
 File = raw_datasets/expr_FUN/expr_FUN.trainvalid.arff
-%% TestSet = raw_datasets/expr_FUN/expr_FUN.test.arff
+TestSet = raw_datasets/expr_FUN/expr_FUN.test.arff
 
 [Attributes]
 ReduceMemoryNominalAttrs = no
@@ -32,7 +32,7 @@ ChosenInstancesTest = [-1]
 
 [Ensemble]
 Iterations = [10]
-FeatureRanking = [RForest, Genie3, Symbolic]
+FeatureRanking = [Genie3, Symbolic]
 EnsembleMethod = RForest
 SelectRandomSubspaces = SQRT
 EnsembleBootstrapping = Yes
@@ -46,3 +46,6 @@ Neighbours = [10, 15]
 Iterations = 10
 InternalFolds = 5
 PossibleWeights = [0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0]
+
+[Output]
+TrainErrors = No

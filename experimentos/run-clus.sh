@@ -9,9 +9,11 @@
 #	fi
 #done
 
-for f in $(ls raw_datasets); do
-	if [ -d "raw_datasets/$f" ]; then
-		DESTIN="raw_datasets/$f/$f.s"
-		java -jar clus.jar $DESTIN
+source_folder=$1
+
+for f in $(ls $source_folder); do
+	if [ -d "$source_folder/$f" ]; then
+		DESTIN="$source_folder/$f/$f.s"
+		sed -i "s/%%//" $DESTIN && java -jar clus.jar $DESTIN
 	fi
 done

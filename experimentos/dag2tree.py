@@ -1,33 +1,6 @@
 import networkx as nx
-import os
 import sys
-
-
-class ReadFile:
-
-    def read(self, file_path):
-        with open(file_path, "r") as f:
-            return f.readlines()
-
-
-class WriteFile:
-
-    def write(self, file_path, data):
-        with open(file_path, "w") as f:
-            f.writelines(''.join(data))
-
-
-class OSPath:
-    path = None
-    file_name = None
-    file_extension = None
-    full = None
-
-    def __init__(self, full_path) -> None:
-        self.full = full_path
-        self.path, file = os.path.split(full_path)
-        self.file_name = file.split(".")[0]
-        self.file_extension = ".".join(file.split(".")[1:])
+import utils
 
 
 class Graph:
@@ -89,8 +62,8 @@ class ParseArff:
     _OSPath = None
 
     def __init__(self, file_arff) -> None:
-        self._OSPath = OSPath(file_arff)
-        file = ReadFile().read(self._OSPath.full)
+        self._OSPath = utils.OSPath(file_arff)
+        file = utils.ReadFile().read(self._OSPath.full)
         self.runFile(file)
         self.initEdges(self.class_attr_space[0].split(" ")[-1])
         self.reshapeClassSpace()
@@ -147,7 +120,7 @@ class ParseArff:
     def generateTreeFile(self, file_name):
         output = self.file_attr_space + self.class_attr_space + \
             self.data_indicator_line + self.data_space
-        WriteFile().write(file_name, output)
+        utils.WriteFile().write(file_name, output)
 
 
 if __name__ == '__main__':
