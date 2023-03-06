@@ -7,8 +7,12 @@
 dag2tree/
 .ipynb_checkpoints
 *.ipynb
+__pycache__
+.RData
+.Rhistory
 
 # arquivos muito grandes
+struc_FUN.trainvalid.arff
 hom_FUN.train.arff
 hom_FUN.trainvalid.temp.arff
 hom_GO.trainvalid.arff
