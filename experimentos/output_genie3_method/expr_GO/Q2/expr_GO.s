@@ -3,7 +3,7 @@
 
 [Data]
 File = output_genie3_method/expr_GO/Q2/expr_GO.trainvalid.arff
-% TestSet = output_genie3_method/expr_GO/Q2/expr_GO.test.arff
+TestSet = output_genie3_method/expr_GO/Q2/expr_GO.test.arff
 
 [Attributes]
 ReduceMemoryNominalAttrs = no
@@ -31,8 +31,8 @@ DistanceWeighting = [Constant]
 ChosenInstancesTest = [-1]
 
 [Ensemble]
-Iterations = [100]
-FeatureRanking = [RForest, Genie3, Symbolic]
+Iterations = [10]
+FeatureRanking = [Genie3, Symbolic]
 EnsembleMethod = RForest
 SelectRandomSubspaces = SQRT
 EnsembleBootstrapping = Yes
